@@ -17,11 +17,11 @@
         </div>
         <div class="form-group mb-3">
             {{Form::label('department', 'Department', ['class' => 'form-label'])}}
-            {{Form::text('department', '', ['class' => 'form-control bg-white', 'placeholder' => 'Department'])}}
+            {{Form::select('department', ['Computer Science'=>'Computer Science', 'Computer Science Education'=>'Computer Science Education'], '', ['class' => 'form-control bg-white', 'placeholder' => 'Department'])}}
         </div>
         <div class="form-group mb-3">
             {{Form::label('faculty', 'Faculty', ['class' => 'form-label'])}}
-            {{Form::text('faculty', '', ['class' => 'form-control bg-white', 'placeholder' => 'Faculty'])}}
+            {{Form::select('faculty', ['Education'=>'Education', 'Science'=>'Science'], '', ['class' => 'form-control bg-white', 'placeholder' => 'Faculty'])}}
         </div>
         <div class="form-group mb-3">
             {{Form::label('email', 'Email Address', ['class' => 'form-label'])}}

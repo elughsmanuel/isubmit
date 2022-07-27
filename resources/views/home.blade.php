@@ -15,22 +15,28 @@
             <hr>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="box bg-success text-white text-center text-uppercase p-4 rounded mb-4">
-                        <h2>{{$posts->count()}}</h2>
-                        <h5>Total assignments</h5>
-                    </div>
+                    <a href="/posts" style="text-decoration: none">
+                        <div class="box bg-success text-white text-center text-uppercase p-4 rounded mb-4">
+                            <h2>{{$posts->count()}}</h2>
+                            <h5>Total assignments</h5>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="box bg-danger text-white text-center text-uppercase p-4 rounded mb-4">
-                        <h2>0</h2>
-                        <h5>Total courses</h5>
-                    </div>
+                    <a href="#" style="text-decoration: none">
+                        <div class="box bg-danger text-white text-center text-uppercase p-4 rounded mb-4">
+                            <h2>0</h2>
+                            <h5>Total courses</h5>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="box bg-secondary text-white text-center text-uppercase p-4 rounded mb-4">
-                        <h2>0</h2>
-                        <h5>Total users</h5>
-                    </div>     
+                    <a href="#" style="text-decoration: none">
+                        <div class="box bg-secondary text-white text-center text-uppercase p-4 rounded mb-4">
+                            <h2>0</h2>
+                            <h5>Total users</h5>
+                        </div>  
+                    </a>   
                 </div>
             </div>
             </div>
